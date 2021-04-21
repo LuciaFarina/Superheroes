@@ -1,0 +1,41 @@
+.register{
+    font-size: 50px;
+    top: 20px;
+    margin: 0;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.button1{
+    background: #888888;
+    color: white;
+    border-radius: 23px;
+    width:48%;
+    height: 40px;
+    border-color: #888888;
+    margin-right: 5px;
+}
+
+.button2{
+    background-color: #1CD1B0;
+    border-radius: 23px;
+    width: 48%;
+    height: 40px;
+    border-color:#1CD1B0;
+    margin-left: 5px;
+}
+.pais{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    font-family: 'Karla', sans-serif;
+}
+
+.registerbox{
+    position: absolute;
+    left:400px;
+    top: 10px;
+    font-family: 'Inter', sans-serif;
+   width: 500px;
+   ;
+}

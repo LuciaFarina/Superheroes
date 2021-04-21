@@ -7,7 +7,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla&family=Roboto&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/principal.css">
-    <title>Login</title>
+    <title>Registro</title>
 </head>
 <body>
 
@@ -19,16 +19,25 @@
     <h2 class="tituloo">Nombre Tienda</h2>
 </div>
 <div class="box">
-    <div class="loginbox">
-<h1 class="login">Login</h1>
+    <div class="registerbox">
+<h1 class="register">Registro</h1>
     <form action="/results" >
-        <input type="email" name="usuario" placeholder="   Usuario" class="formulario">
+        <input type="text" name="nombre"  placeholder="    Nombre y Apellido" class="formulario">
+        <input type="email" name="mail" placeholder="   Correo Electrónico" class="formulario">
         <br>
         <input type="password" name="contrasena" placeholder="   Contraseña" class="formulario" >
-        <button type="submit" class="boton">Entrar</button>
+        <select name="pais" class="pais">
+            <option disabled selected> Pais</option>
+            <option value="Argentina" class="pais">Argentina</option>
+            <option value="Colombia" class="pais">Colombia</option>
+            <option value="Brasil" class="pais">Brasil</option>
+            <option value= "otro" class="pais">Otros</option>
+        </select>
+        <button type="reset" class="button1">Resetear</button>
+        <button type="submit" class="button2">Entrar</button>
      </form>
 <div class="registro">
-        <a href="registro.html" target="_blank">¿No tienes una cuenta?</a> Registrarme
+        <a href="index.html" target="_blank">¿Ya tenés una cuenta?</a> Ingresá
         
 </div>   
 </div>
